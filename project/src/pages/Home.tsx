@@ -23,7 +23,7 @@ const HERO_SLIDES = [
 ];
 const SLIDE_MS = 6000;
 
-const HERO_MAIN_IMG = 'https://images.pexels.com/photos/6941028/pexels-photo-6941028.jpeg?auto=compress&cs=tinysrgb&w=900';
+const HERO_MAIN_IMG = 'productmoring';
 const HERO_SEC_IMG  = 'https://images.pexels.com/photos/5946081/pexels-photo-5946081.jpeg?auto=compress&cs=tinysrgb&w=900';
 
 /* ─── Nav / data ─────────────────────────────────────────────────────────── */
@@ -423,6 +423,8 @@ export default function Home() {
         </div>
       </section>
 
+      <div className="section-pad" style={{ position: 'relative', zIndex: 1 }}><div className="gold-divider" /></div>
+
       {/* ── BENEFITS ── */}
       <section style={{ position: 'relative', zIndex: 1, padding: '80px 0' }}>
         <div style={{ position: 'absolute', inset: 0, background: 'rgba(4,12,8,0.80)' }} />
@@ -493,6 +495,8 @@ export default function Home() {
           </Reveal>
         </div>
       </section>
+
+      <div className="section-pad" style={{ position: 'relative', zIndex: 1 }}><div className="gold-divider" /></div>
 
       {/* ── TESTIMONIALS ── */}
       <section style={{ position: 'relative', zIndex: 1, padding: '80px 0' }}>
