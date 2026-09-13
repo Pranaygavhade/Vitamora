@@ -14,6 +14,7 @@ import { useCart } from '@/context/CartContext';
 import { useAuth } from '@/context/AuthContext';
 import { useWishlist } from '@/context/WishlistContext';
 
+
 /* ─── Hero carousel ──────────────────────────────────────────────────────── */
 const HERO_SLIDES = [
   { url: 'img1.jpeg', alt: 'Fresh green botanical leaves' },
@@ -23,7 +24,7 @@ const HERO_SLIDES = [
 ];
 const SLIDE_MS = 6000;
 
-const HERO_MAIN_IMG = 'productmoring';
+const HERO_MAIN_IMG = 'backgroung.jpg';
 const HERO_SEC_IMG  = 'https://images.pexels.com/photos/5946081/pexels-photo-5946081.jpeg?auto=compress&cs=tinysrgb&w=900';
 
 /* ─── Nav / data ─────────────────────────────────────────────────────────── */
